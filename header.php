@@ -9,7 +9,9 @@
 
         <title>First Portfolio Bootstrap 5 Theme</title>
 
-        <?php wp_head(); ?>
+        <?php 
+            wp_head(); 
+        ?>
         
 <!--
 
