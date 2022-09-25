@@ -50,7 +50,7 @@ if(!function_exists('developerportfoliotheme')){
 
 
                 // <!-- /.footer-->
-                // <!-- JAVASCRIPT FILES -->
+                // <!-- JAVASCRIPT FILES PATHWAY-->
                 wp_enqueue_script( 'jqueryjs', get_template_directory_uri() . '/js/jquery.min.js', null, null, true);
                 wp_enqueue_script( 'bsjs', get_template_directory_uri() . '/js/bootstrap.min.js', null, null, true); 
                 wp_enqueue_script( 'stickyjs', get_template_directory_uri() . '/js/jquery.sticky.js', null, null, true);
