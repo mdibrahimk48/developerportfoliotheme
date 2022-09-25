@@ -9,20 +9,7 @@
 
         <title>First Portfolio Bootstrap 5 Theme</title>
 
-        <!-- CSS FILES -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        
-        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
-
-        <link href="<?php echo get_theme_file_uri('css/bootstrap.min.css');?>" rel="stylesheet">
-
-        <link href="<?php echo get_theme_file_uri('css/bootstrap-icons.css');?>" rel="stylesheet">
-
-        <link href="<?php echo get_theme_file_uri('css/magnific-popup.css');?>" rel="stylesheet">
-
-        <link href="<?php echo get_theme_file_uri('css/templatemo-first-portfolio-style.css');?>" rel="stylesheet">
+        <?php wp_head(); ?>
         
 <!--
 
