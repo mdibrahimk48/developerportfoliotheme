@@ -74,5 +74,8 @@ if(!function_exists('developerportfoliotheme')){
 
 } 
 
+// Included Files
+require_once('inc/custom-services.php');
+
 
 ?>
